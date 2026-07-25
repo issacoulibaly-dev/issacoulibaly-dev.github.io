@@ -799,6 +799,11 @@
     display: inline-block;
     margin-top: 16px;
   }
+  .status-pill.live {
+    color: var(--emerald);
+    border-color: var(--emerald-dim);
+    background: rgba(15,168,117,0.08);
+  }
 
   /* ---------- SKILLS ---------- */
   .skills-groups {
@@ -1116,18 +1121,20 @@
           <div class="project-icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M8 21h8M12 17v4"/></svg>
           </div>
-          <h3>CybertechGestion</h3>
+          <h3>MaBoutique Pro <span style="color:var(--text-faint); font-weight:400; font-size:0.85rem;">(CybertechGestion)</span></h3>
           <p class="desc">
-            Application de bureau de gestion commerciale : point de vente, gestion de stock, ventes à
-            crédit, rapports PDF et système de licence par machine. Conçue pour les petits commerces,
-            de la base de données à l'installateur.
+            Application de bureau complète de gestion commerciale : point de vente, gestion de stock,
+            ventes à crédit, multi-postes avec rôles utilisateurs, export PDF/CSV et système de licence
+            par machine. Actuellement en phase de test chez un client réel, boutique en activité.
           </p>
           <div class="stack-tags">
             <span class="stack-tag">Python</span>
             <span class="stack-tag">Tkinter</span>
             <span class="stack-tag">PostgreSQL</span>
           </div>
-          <a href="#" class="project-link">Voir le projet <span class="arrow">→</span></a>
+          <span class="status-pill live">● en test chez un client</span>
+          <br>
+          <a href="#contact" class="project-link">Démo sur demande <span class="arrow">→</span></a>
         </div>
 
         <div class="project-card placeholder reveal">
